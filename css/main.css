@@ -1,0 +1,139 @@
+html {
+	height: 100%;
+	min-width: 1200px !important;
+}
+
+body {
+	min-width: 1200px !important;
+}
+
+.container {
+	min-width: 1200px !important;
+}
+
+#bg {
+	height: 100%;
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 600px;
+	background-attachment: fixed;
+}
+
+
+#title {
+	font-size: 80px;
+	margin-bottom: 0px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	text-shadow: 0px 0px 20px #888;
+	padding-top: 20%;
+}
+
+#subtitle {
+	font-weight: 500;
+	font-size: 65px;
+	color: #fff;
+	margin-top: -10px;
+	text-align: center;
+	text-shadow: 0px 0px 20px #888;
+}
+
+
+#page {	
+	height: 90%;
+}
+
+.fa-angle-double-down {
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+    width: 100%;
+}
+
+.btn {
+	text-align: center;
+	margin-top: -55px;
+	font-weight: bold;
+	color: #2e2e2b;
+	font-weight: bold;
+	border-radius: 0px;
+	border: none;
+	border-radius: 0px;
+	width: 120px;
+}
+
+#roster .year {
+	color: #2e2e2b;
+	font-weight: bold;
+	text-align: center;
+	font-size: 60px;
+}
+
+#roster h2 {
+	text-align: center;
+}
+
+.ind {
+	padding-bottom: 30px;
+}
+
+.name {
+	width: 280px;
+	z-index: 1;	
+	position: relative;	
+	margin-top: -45px;
+	background-color: #fff;
+	text-align: center;
+	color: #2e2e2b;
+	font-size: 32px;
+	opacity: .8;
+}
+
+.category {
+	font-size: 14px;
+	text-align: center;
+}
+
+.total {
+	text-align: center;
+}
+
+#team_stats{
+	text-align: center;
+}
+
+.team_name {
+	z-index: 1;	
+	position: relative;	
+	margin-top: -85px;
+	background-color: #fff;
+	text-align: center;
+	color: #2e2e2b;
+	font-size: 48px;
+	opacity: .8;
+	margin-bottom: 65px;
+}
+
+.total, .requests {
+	font-size: 16px;
+}
+
+.roster-team {
+	padding-bottom: 50px;
+}
+
+#disclaimer {
+	text-align: center;
+	font-style: italic;
+	padding-bottom: 100px;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+#sort {
+	text-align: center;
+}
